@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance Input and Labels</title>
+</head>
+<body>
+    <!-- Advanced Input Form  -->
+
+
+<form action="thankyou.html" method="get">
+    <!-- the function of action is that whenever we 
+     fill the form and click the submit button,
+     it will take me to thankyou html file and 
+     displays it -->
+
+     <!-- when I use method = 'get', it will works as
+      a http verb which displays the input that you have given
+      in the http link and displays there.
+      the data goes to the URL-->
+
+      <!-- when we use method ='POST', it stores to 
+       STTP header -->
+
+    <h2>Information</h2>
+    <label for="username1">USERNAME : </label>
+    <input type="text" id="username1" name="user"> 
+    
+    <br><br>
+
+    <label for="password1">Password : </label>
+    <input type="password" id="password1" name="pass"> 
+    
+    <br><br>
+
+    <label for="email1">Email Address : </label>
+    <input type="text" id="email1" name="email">
+
+    <br><br>
+
+    <input type="submit" value="Submit Now">
+    <br><br>
+</form>
+</body>
+</html>
